@@ -1,4 +1,4 @@
-# Employee-Surveys
+# Exploring Reasons for Employee Resignations using Survey Data
 
 Clean and Analyze Employee Exit Surveys
 
