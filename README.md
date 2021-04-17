@@ -26,14 +26,17 @@ Below, we'll add an institute column so that we can differentiate the data from 
 Clean the Service Column:
 Next, we'll clean the institute_service column and categorize employees according to the following definitions:
   
+  
   New: Less than 3 years in the workplace
+  
   Experienced: 3-6 years in the workplace
+  
   Established: 7-10 years in the workplace
+  
   Veteran: 11 or more years in the workplace
 
 Our analysis is based on this article: "https://www.businesswire.com/news/home/20171108006002/en/Age-Number-Engage-Employees-Career-Stage", which makes the argument that understanding employee's needs according to career stage instead of age is more effective.
 
-Perform Some Initial Analysis:
+Perform Analysis:
 Finally, we'll replace the missing values in the dissatisfied column with the most frequent value, False. Then, we'll calculate the percentage of employees who resigned due to dissatisfaction in each service_cat group and plot the results.
 
-Note that since we still have additional missing values left to deal with, this is meant to be an initial introduction to the analysis, not the final analysis.
